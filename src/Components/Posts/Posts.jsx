@@ -5,6 +5,7 @@ import Post from '../Post/Post';
 
 const Posts = () => {
     const posts=useLoaderData()
+    
     const postDiv={
         display: "grid",
         gridTemplateColumns: "repeat(3,1fr)",
